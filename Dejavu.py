@@ -11,7 +11,7 @@ class Dejavu(object) :
 			self.layers[i] = {}
 			self.layers[i]['weights'] = np.random.uniform(low=-1.0, high=1.0, size=(nn[i+1],nn[i]))
 			self.layers[i]['bias'] = np.random.uniform(low=-1.0, high=1.0, size=(nn[i+1],1))
-			self.layers[i]['activation'] = 'tanh'
+			self.layers[i]['activation'] = 'sigmoid'
 			self.layers['length'] += 1
 
 		self.lr = learningRate
