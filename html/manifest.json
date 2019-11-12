@@ -1,0 +1,23 @@
+{
+  "name": "HN Titlenator",
+  "short_name": "HNTitlenator",
+  "description": "A neural network to predict if your HN post title is good or bad",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "density": 1
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": 1
+    }
+  ]
+}

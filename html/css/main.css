@@ -1,0 +1,44 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: arial;
+	font-size: 1.1em;
+}
+
+input {
+	width: 80%;
+	height: 40px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 1.1em;
+}
+
+button {
+	width: 10%;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+#main > div {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	line-height: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  #main > div {
+    width: 100%;
+  }
+}
