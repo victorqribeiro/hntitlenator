@@ -2,6 +2,7 @@ import json
 import requests
 import time
 
+data = []
 
 categories = ["newstories", "showstories", "topstories", "beststories"]
 
