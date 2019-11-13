@@ -12,13 +12,13 @@ A project about [neural networks](https://en.wikipedia.org/wiki/Neural_network) 
 
 ## Motivation
 
-Ever since I joined the hackernews community I've been wondering how one could get more attention when sharing a story. One of the things I noticed is the timming. The day of the week and the hour of the day you post your story seems to affect you many up votes your story will get.
+Ever since I joined the hackernews community I've been wondering how one could get more attention when sharing a story. One of the things I noticed is the timming. The day of the week and the hour of the day you post your story seems to affect how many up votes your story will get.
 
-In order to check that, I got 1256 stories from HN API. I then took the mean of the score of those stories and found a value of 70. Then I plotted a graph showing the day of the week and hour of the day those stories were posted.
+In order to check that, I got 1256 stories from [HN API](https://github.com/HackerNews/API). I then took the mean of the score of those stories and found a value of 70 up votes. Then I plotted a graph showing the day of the week and hour of the day those stories, who got more than 70 up votes, were posted.
 
 ![plot](max-upvotes.png)
 
-As you can see, Friday noon seems to be the best day to post your storie, since 18 stories posted that time had more than 70 upvotes. (keep in mind that I only had access to 1256 stories, it's a very small sample compared to all the post HN must have every day)
+As you can see, Friday noon seems to be the best day to post your storie, since 18 stories posted that time had more than 70 upvotes (keep in mind that I only had access to 1256 stories, it's a very small sample compared to all the post HN must have every day).
 
 Is that all? It's the time of the day and day of the week the only one responsible for getting up votes? Well, I decied to train a neural network with the words used on the titles and classify the title as *good* if they had more than 70 up votes and *bad* if they didn't.
 
