@@ -2,6 +2,8 @@
 
 A neural network to predict whether your HN post will get up votes by the title.
 
+![screenshot](screenshot.png)
+
 Test your title [here](https://victorribeiro.com/hntitlenator)
 
 ## About
