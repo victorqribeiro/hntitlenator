@@ -26,7 +26,7 @@ days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sunday"]
 for t, d in zip(top, days):
 	plt.plot( t, label=d)
 plt.legend()
-plt.xlabel("Time 24h")
+plt.xlabel("Time posted - 24h format")
 plt.ylabel("More than 70 upvotes")
 plt.yticks([i*2 for i in range(10)])
 plt.xticks([i for i in range(24)])
