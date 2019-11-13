@@ -24,7 +24,7 @@ Is that all? It's the time of the day and day of the week the only one responsib
 
 ## Neural Network
 
-In order to train the neural network, I counted how many words ware used in each title. The longest title had 17 words and the mean of all titles were 9 words. So, I model my neural network to recive 20 words as input. Titles with less then 20 words on them were padded with zeros.
+In order to train the neural network, I counted how many words were used in each title. The longest title had 17 words and the mean of all titles were 9 words. So, I model my neural network to recive 20 words as input. Titles with less then 20 words on them were padded with zeros.
 
 I then turn each word into a value with the help of a [dictionary](https://github.com/dwyl/english-words/blob/master/words_alpha.txt).
 
