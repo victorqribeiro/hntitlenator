@@ -12,7 +12,7 @@ A project about [neural networks](https://en.wikipedia.org/wiki/Neural_network) 
 
 ## Motivation
 
-Ever since I joined the hackernews community I've been wondering how one could get more attention when sharing a story. One of the things I noticed is the timming. The day of the week and the hour of the day you post your story seems to affect how many up votes your story will get.
+Ever since I joined the hackernews community I've been wondering how one could get more attention when sharing a story. One of the things I noticed is the timing. The day of the week and the hour of the day you post your story seems to affect how many up votes your story will get.
 
 In order to check that, I got 1256 stories from [HN API](https://github.com/HackerNews/API). I then took the mean of the score of those stories and found a value of 70 up votes. Then I plotted a graph showing the day of the week and hour of the day those stories, who got more than 70 up votes, were posted.
 
