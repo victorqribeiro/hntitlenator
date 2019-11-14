@@ -20,11 +20,11 @@ In order to check that, I got 1256 stories from [HN API](https://github.com/Hack
 
 As you can see, Friday noon (UTC-3 Brasilia) seems to be the best day to post your story, since 18 stories posted that time had more than 70 upvotes (keep in mind that I only had access to 1256 stories, it's a very small sample compared to all the post HN must have every day).
 
-Is that all? Are the time of the day and day of the week the ones responsible to get upvotes? Well, I decied to train a neural network with the words used on the titles and classify the title as *good* if it has more than 70 up votes and *bad* if it doesn't.
+Is that all? Are the time of the day and day of the week the ones responsible to get upvotes? Well, I decided to train a neural network with the words used on the titles and classify the title as *good* if it has more than 70 up votes and *bad* if it doesn't.
 
 ## Neural Network
 
-In order to train the neural network, I counted how many words were used in each title. The longest title had 17 words and the mean of all titles were 9 words. So, I model my neural network to recive 20 words as input. Titles with less then 20 words on them were padded with zeros.
+In order to train the neural network, I counted how many words were used in each title. The longest title had 17 words and the mean of all titles were 9 words. So, I model my neural network to receive 20 words as input. Titles with less then 20 words on them were padded with zeros.
 
 I then turn each word into a value with the help of a [dictionary](https://github.com/dwyl/english-words/blob/master/words_alpha.txt).
 
