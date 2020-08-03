@@ -39,3 +39,5 @@ This project is far from credible. All the things I did were to satisfy my own c
 I tried to keep the code as clean as possible, but keep in mind that I did the whole experiment in one night. I tried to separate each step in it's own python script: get_data.py, proccess_data.py, train.py, retrain.py, plot.py
 
 
+------
+[![donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=76N3LUCQ9FENS&currency_code=BRL&source=url)
